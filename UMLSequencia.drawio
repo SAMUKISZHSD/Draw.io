@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Página-1" id="cRvJWgjH9a_eANFPLsf2">
+    <mxGraphModel dx="1195" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HJ4UDJNiVAxJ64FodoB1-8" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="30" y="87" width="20.67" height="333" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ4UDJNiVAxJ64FodoB1-9" value="FormularioCadastro" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="149" y="40" width="120" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ4UDJNiVAxJ64FodoB1-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="HJ4UDJNiVAxJ64FodoB1-9">
+          <mxGeometry x="55" y="110" width="10" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ4UDJNiVAxJ64FodoB1-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="HJ4UDJNiVAxJ64FodoB1-9">
+          <mxGeometry x="55" y="50" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ4UDJNiVAxJ64FodoB1-10" value="controller: UserControler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="303" y="40" width="150" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ4UDJNiVAxJ64FodoB1-24" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="HJ4UDJNiVAxJ64FodoB1-10">
+          <mxGeometry x="69" y="110" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ4UDJNiVAxJ64FodoB1-11" value="FormularioLogin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="90" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ4UDJNiVAxJ64FodoB1-12" value="FormularioLogin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="680" y="40" width="90" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="HJ4UDJNiVAxJ64FodoB1-17" value="SubmeterCadastro (usuario)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="HJ4UDJNiVAxJ64FodoB1-16" parent="1" source="HJ4UDJNiVAxJ64FodoB1-8">
+          <mxGeometry x="-0.0041" relative="1" as="geometry">
+            <mxPoint x="90" y="155" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJ4UDJNiVAxJ64FodoB1-18" value="Informar user" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="HJ4UDJNiVAxJ64FodoB1-16" parent="1" target="HJ4UDJNiVAxJ64FodoB1-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJ4UDJNiVAxJ64FodoB1-21" value="Prencher formulario cadastro" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50.66999999999999" y="120" as="sourcePoint" />
+            <mxPoint x="200" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJ4UDJNiVAxJ64FodoB1-22" value="SubmeterCadastro (usuario)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="220" y="156" as="sourcePoint" />
+            <mxPoint x="370" y="156" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HJ4UDJNiVAxJ64FodoB1-23" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="370" as="sourcePoint" />
+            <mxPoint x="220" y="369" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
